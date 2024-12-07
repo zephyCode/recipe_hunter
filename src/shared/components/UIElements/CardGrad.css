@@ -1,0 +1,11 @@
+.card-grad {
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        border-radius: 2em;
+        width: 300px;
+        margin: 10px auto;
+}
