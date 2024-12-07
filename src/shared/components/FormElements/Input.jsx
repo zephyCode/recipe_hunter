@@ -53,7 +53,7 @@ const Input = props => {
   const element =
     props.element === 'input' ? (
       <input
-        className={`${props.light && 'input--light'} ${props.dark && 'input--dark'}`}
+        className={`${props.light && 'input--light'} ${props.dark && 'input--dark'} ${props.round && 'input--round'}`}
         id={props.id}
         type={props.type}
         placeholder={props.placeholder}
@@ -63,7 +63,7 @@ const Input = props => {
       />
     ) : (
       <textarea
-        className={`${props.light && 'input--light', props.dark && 'input--dark'}`}
+        className={`${props.light && 'input--light', props.dark && 'input--dark'} ${props.round && 'input--round'}`}
         id={props.id}
         rows={props.rows || 3}
         onChange={changeHandler}

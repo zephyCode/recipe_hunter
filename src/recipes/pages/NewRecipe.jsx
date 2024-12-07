@@ -40,6 +40,7 @@ export default function NewRecipe() {
                 errorText="Please fill the title field..."
                 onInput={inputHandler}
                 dark
+                round
             />
             <Input
                 id="description"
@@ -49,6 +50,7 @@ export default function NewRecipe() {
                 errorText="Please fill the description field..."
                 onInput={inputHandler}
                 dark
+                round
             />
             <Input
                 id="procedure"
@@ -58,6 +60,7 @@ export default function NewRecipe() {
                 errorText="Please fill the description field..."
                 onInput={inputHandler}
                 dark
+                round
             />
             <Button type="submit" sky disabled={!formState.isValid}>Add Recipe</Button>
         </form>
